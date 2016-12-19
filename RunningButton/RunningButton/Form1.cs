@@ -112,10 +112,7 @@ namespace RunningButton
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
-            t1.Abort();
-            t2.Abort();
-            t3.Abort();
-            t4.Abort();
+            button6_Click(sender,e);
         }
     }
 }
