@@ -7,3 +7,4 @@ E:\GitHub\RunningButton\RunningButton\obj\Debug\RunningButton.Properties.Resourc
 E:\GitHub\RunningButton\RunningButton\obj\Debug\RunningButton.csproj.GenerateResource.Cache
 E:\GitHub\RunningButton\RunningButton\obj\Debug\RunningButton.exe
 E:\GitHub\RunningButton\RunningButton\obj\Debug\RunningButton.pdb
+E:\GitHub\RunningButton\RunningButton\obj\Debug\RunningButton.Form1.resources
