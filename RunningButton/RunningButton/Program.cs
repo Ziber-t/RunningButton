@@ -17,7 +17,7 @@ namespace RunningButton
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
-            MessageBox.Show("Тестовый код","Ranning button");
+            MessageBox.Show("fsd","Test");
         }
 
     }
