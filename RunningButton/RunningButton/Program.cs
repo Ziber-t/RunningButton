@@ -20,6 +20,7 @@ namespace RunningButton
             MessageBox.Show("first branch","Test");
             msBox mb = new msBox();
             mb.showMSB("Новая ветка","ветка");
+            mb.showMSB("Nhf nfnf","sdfsd");
         }
 
     }
