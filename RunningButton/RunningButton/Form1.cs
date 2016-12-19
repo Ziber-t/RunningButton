@@ -32,7 +32,6 @@ namespace RunningButton
         }
 
 
-
         private void Moution(Button button)
         {
             button.Location = new Point(button.Location.X +r.Next(4),button.Location.Y);
@@ -77,16 +76,7 @@ namespace RunningButton
         private void button5_Click(object sender, EventArgs e)
         {
             button5.Enabled = false;
-            //if (t1 != null)
-            //{
-            //    t1.Resume();
-            //    t2.Resume();
-            //    t3.Resume();
-            //    t4.Resume();
-            //   // return;
-            //}
-            //else
-            //{
+           
                 t1 = new Thread(Btn1Moution);
                 t2 = new Thread(Btn2Moution);
                 t3 = new Thread(Btn3Moution);
@@ -98,26 +88,34 @@ namespace RunningButton
                 t2.Start();
                 t3.Start();
                 t4.Start();
-            //}
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            button5.Enabled = true;
-            t2.Suspend();
-            t1.Suspend();
-            t3.Suspend();
-            t4.Suspend();
+            
+                button5.Enabled = true;
+                t2.Suspend();
+                t1.Suspend();
+                t3.Suspend();
+                t4.Suspend();
+            
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
-            //button6_Click(sender,e);
+            button6_Click(sender,e);
+            button1.Location = new Point(12, button1.Location.Y);
+            button2.Location = new Point(12, button2.Location.Y);
+            button3.Location = new Point(12,button3.Location.Y);
+            button4.Location = new Point(12,button4.Location.Y);
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
             t1.Abort();
             t2.Abort();
             t3.Abort();
             t4.Abort();
-            
         }
     }
 }

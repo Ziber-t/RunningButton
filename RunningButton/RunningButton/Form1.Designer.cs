@@ -128,6 +128,7 @@
             this.Controls.Add(this.button1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
 
