@@ -1,2 +1,9 @@
 E:\PROJECT\C_sharp\RunningButton\RunningButton\bin\Debug\RunningButton.exe.config
 E:\GitHub\RunningButton\RunningButton\bin\Debug\RunningButton.exe.config
+E:\GitHub\RunningButton\RunningButton\bin\Debug\RunningButton.exe
+E:\GitHub\RunningButton\RunningButton\bin\Debug\RunningButton.pdb
+E:\GitHub\RunningButton\RunningButton\obj\Debug\RunningButton.csprojResolveAssemblyReference.cache
+E:\GitHub\RunningButton\RunningButton\obj\Debug\RunningButton.Properties.Resources.resources
+E:\GitHub\RunningButton\RunningButton\obj\Debug\RunningButton.csproj.GenerateResource.Cache
+E:\GitHub\RunningButton\RunningButton\obj\Debug\RunningButton.exe
+E:\GitHub\RunningButton\RunningButton\obj\Debug\RunningButton.pdb
